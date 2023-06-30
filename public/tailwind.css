@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p{
+    @apply mb-2;
+}
+
+ul li{
+    @apply mb-1;
+}
+
+.wrapper{
+    width: 1024px;
+}
+
+@media print {
+    .print-page {page-break-after: always;}
+    .italic {
+        font-family: Helvetica, Arial, sans-serif;
+    }
+}
+
+@page {
+    margin: 0.5cm;
+}
