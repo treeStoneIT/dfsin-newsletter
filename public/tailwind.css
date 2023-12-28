@@ -19,6 +19,10 @@ ul li{
     .italic {
         font-family: Helvetica, Arial, sans-serif;
     }
+
+    .print-max-h-screen {
+        max-height: 100vh;
+    }
 }
 
 @page {
